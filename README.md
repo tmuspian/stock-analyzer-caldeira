@@ -1,2 +1,2 @@
 # stock-analyzer-caldeira
-Open Source Project Caldeira Stock Analyzer
+Open source project Caldeira Stock Analyzer
