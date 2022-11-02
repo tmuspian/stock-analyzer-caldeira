@@ -8,6 +8,8 @@ public class StockAnalyzerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(StockAnalyzerApplication.class, args);
+		System.out.println("test 2");
+
 	}
 
 }
