@@ -13,9 +13,14 @@ public class StockAnalyzerApplication {
 		System.out.println("Digite o codigo da ação que deseja pesquisar:");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String stock = reader.readLine();
-		SpringApplication.run(StockAnalyzerApplication.class, args);
 
+		if(isValid(stock)){
+		System.out.printf("Codigo %s aceito", stock);}
 
+		//SpringApplication.run(StockAnalyzerApplication.class, args);
+	}
+	private static Boolean isValid(String stock){
+		return !stock.trim().isEmpty();
 	}
 
 }
