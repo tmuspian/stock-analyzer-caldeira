@@ -12,7 +12,7 @@ public class StockAnalyzerApplication {
 	public static void main(String[] args) throws IOException {
 		System.out.println("Digite o codigo da ação que deseja pesquisar:");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		String action = reader.readLine();
+		String stock = reader.readLine();
 		SpringApplication.run(StockAnalyzerApplication.class, args);
 
 
